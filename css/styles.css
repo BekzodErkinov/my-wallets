@@ -1,0 +1,130 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #f7cd75;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+section {
+	width: 1000px;
+	height: 500px;
+	overflow: hidden;
+	margin: 80px auto;
+	display: flex;
+}
+
+.wallets {
+	overflow-y: scroll;
+	display: flex;
+	background: #eee;
+}
+
+.my-card {
+	width: 350px;
+	padding: 20px 40px;
+}
+
+.cards-list {
+	padding-bottom: 40px;
+}
+
+.card-lead {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-title {
+	text-transform: capitalize;
+}
+
+.card-item {
+	padding: 3px 10px;
+	margin-top: 30px;
+	background: #fff;
+}
+
+.card-num, .card-ind {
+	color: #777;
+	font-weight: bold;
+}
+
+.card-ind {
+	margin: 0 0 6px;
+}
+
+
+.balance {
+	width: 700px;
+	overflow-y: scroll;
+	padding: 20px 40px;
+	background: #fff;
+}
+
+.current-balance {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #eee;
+}
+
+.money {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.product {
+	padding: 50px 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.product-minus, .product-plus {
+	padding: 3px 5px;
+	margin-right: 40px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.txt-wrap {
+	margin-right: auto;
+}
+
+.product-title {
+	margin: 0 0 10px;
+}
+
+.txt-wrap p {
+	color: #aaa;
+	margin: 0;
+}
+
+.product-cost {
+	color: #09f;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.product:nth-child(2) .product-cost {
+	color: #0c0;
+}
